@@ -25,5 +25,11 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/bug-min.js') }}"></script>
+     <script type='text/javascript'>
+    // add laydybug:
+    new SpiderController({'minBugs':1, 'maxBugs':1, 'canfly': true ,'mouseOver':'flyoff', 'canDie': false});
+  </script>
+
 </body>
 </html>
